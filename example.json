@@ -1,0 +1,15 @@
+{
+  "domain": "https://example.com/",
+  "useSameProxy": true,
+  "saveCookies": true,
+  "actions": [
+    {
+      "type": "click",
+      "classId": 78,
+      "saveAllData": true,
+      "timeout": 0,
+      "comment": "Открываем Разное",
+      "titleToDecline": "Captcha"
+    }
+  ]
+}

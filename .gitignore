@@ -1,0 +1,6 @@
+node_modules/
+*.png
+*.list
+*.log
+config.json
+cookies.json

@@ -1,0 +1,40 @@
+{
+  "combinedLogFile": "./combined.log",
+  "errorLogFile": "./error.log",
+  "proxy" : {
+    "proxySource": "api",
+    "proxyService": "http://pubproxy.com/api/proxy",
+    "proxyFile": "./lastUsedProxy.list",
+    "proxySourceFile": "./proxies-source.list",
+    "usedProxyFile": "./proxies-used.list"
+  },
+  "screenshotsDir": "./screenshots",
+  "htmlDumpDir": "./pages",
+  "cookieFile": "./cookies.json",
+  "debug": true,
+  "navigationTimeout": 60,
+  "chromeLaunchConfig": {
+    "headless": false,
+    "args": [
+      "--disable-web-security"
+    ]
+  },
+  "viewports": [
+    {
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "width": 1366,
+      "height": 768
+    },
+    {
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "width": 1024,
+      "height": 768
+    }
+  ]
+}
